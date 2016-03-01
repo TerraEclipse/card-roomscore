@@ -9,12 +9,12 @@
   <body>
     <div class="card card--roomscore tone--{{variant.tone}}" data-state="{{variant.variant_state}}">
       <div class="branding">
-        <img src="/images/logo.png">
+        <img src="{{base_url}}/images/logo.png">
       </div>
       <div class="main">
         <div class="target">
-          <img class="grade" src="/images/grades/{{variant.grade}}.png">
-          <div class="photo" style="background-image: url(/images/targets/{{variant.target.image}})"></div>
+          <img class="grade" src="{{base_url}}/images/grades/{{variant.grade}}.png">
+          <div class="photo" style="background-image: url({{base_url}}/images/targets/{{variant.target.image}})"></div>
         </div>
         <div class="message">
           <div class="greeting">
@@ -35,7 +35,7 @@
               </div>
               <div class="closing">
                 get our
-                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+                <img class="grade" src="{{base_url}}/images/grades/{{variant.grade}}.png">
                 RoomScore!
               </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="content content--help">
               <div class="intro">
                 Your RoomScore is
-                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+                <img class="grade" src="{{base_url}}/images/grades/{{variant.grade}}.png">
               </div>
               <div class="location">
                 {{variant.variant_city}}, {{variant.variant_state}}
@@ -58,7 +58,7 @@
             <div class="content content--hostile">
               <div class="intro">
                 Your RoomScore is
-                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+                <img class="grade" src="{{base_url}}/images/grades/{{variant.grade}}.png">
               </div>
               <div class="location">
                 {{variant.variant_city}}, {{variant.variant_state}}
@@ -71,7 +71,7 @@
           </div>
           <div class="signature {{#if avatar}}avatar{{/if}}">
             {{#if avatar}}
-              <div class="photo" style="background-image: url(/images/{{avatar}})"></div>
+              <div class="photo" style="background-image: url({{base_url}}/images/{{avatar}})"></div>
             {{/if}}
             <div class="user">
               <div class="name">
