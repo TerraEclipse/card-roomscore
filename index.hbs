@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    {{{styles}}}
+    <script src="https://use.typekit.net/ufw0fpr.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+    <div class="card card--roomscore tone--{{variant.tone}}" data-state="{{variant.variant_state}}">
+      <div class="branding">
+        <img src="/images/logo.png">
+      </div>
+      <div class="main">
+        <div class="target">
+          <img class="grade" src="/images/grades/{{variant.grade}}.png">
+          <div class="photo" style="background-image: url(/images/targets/{{variant.target.image}})"></div>
+        </div>
+        <div class="message">
+          <div class="greeting">
+            Dear
+            <span class="name">
+              {{variant.target.title}} {{variant.target.last}}...
+            </span>
+          </div>
+          <div class="body">
+
+            {{!-- ************ Thanks Variant ************ --}}
+            <div class="content content--thanks">
+              <div class="intro">
+                Thank you for helping
+              </div>
+              <div class="location">
+                {{variant.variant_city}}, {{variant.variant_state}}
+              </div>
+              <div class="closing">
+                get our
+                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+                RoomScore!
+              </div>
+            </div>
+
+            {{!-- ************ Help Variant ************ --}}
+            <div class="content content--help">
+              <div class="intro">
+                Your RoomScore is
+                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+              </div>
+              <div class="location">
+                {{variant.variant_city}}, {{variant.variant_state}}
+              </div>
+              <div class="closing">
+                has to raise the grade.
+              </div>
+            </div>
+
+            {{!-- ************ Hostile Variant ************ --}}
+            <div class="content content--hostile">
+              <div class="intro">
+                Your RoomScore is
+                <img class="grade" src="/images/grades/{{variant.grade}}.png">
+              </div>
+              <div class="location">
+                {{variant.variant_city}}, {{variant.variant_state}}
+              </div>
+              <div class="closing">
+                needs to improve now.
+              </div>
+            </div>
+
+          </div>
+          <div class="signature {{#if avatar}}avatar{{/if}}">
+            {{#if avatar}}
+              <div class="photo" style="background-image: url(/images/{{avatar}})"></div>
+            {{/if}}
+            <div class="user">
+              <div class="name">
+                {{first}} {{last}}
+              </div>
+              <div class="location">
+                {{city}}, {{state}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Find your city's grade at
+        <span class="url">
+          www.roomscore.org
+        </span>
+      </div>
+      <div class="background">
+        <div class="highlight"></div>
+      </div>
+    </div>
+    <script>
+      function setBackground () {
+        var card = document.getElementsByClassName('card')[0]
+        var bg = document.getElementsByClassName('background')[0]
+        var state = card.getAttribute('data-state')
+        var number = Math.floor(Math.random() * 3) + 1
+
+        bg.setAttribute('style', `background-image: url(/images/states/${state}-${number}.jpg)`)
+      }
+      window.onload = setBackground
+    </script>
+  </body>
+</html>
