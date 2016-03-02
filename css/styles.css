@@ -138,8 +138,8 @@ body {
 }
 .card--roomscore .main .message .body .location {
   margin: 0.15em 0;
-  padding: 0 0.75em;
-  font-size: 2.75em;
+  padding: 0.2em 0.75em 0.25em 0.75em;
+  font-size: 2.5em;
   font-weight: 600;
   color: #fff;
   border-radius: 1em;
