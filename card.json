@@ -12,6 +12,10 @@
   "styles": [
     "./css/styles.css"
   ],
+  "scripts": [
+    "https://code.jquery.com/jquery-2.2.1.min.js",
+    "./js/bg.js"
+  ],
   "variables": {
     "first": "Your",
     "last": "Name",
