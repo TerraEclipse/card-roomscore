@@ -10,11 +10,7 @@
     }
   },
   "styles": [
-    "./css/styles.css"
-  ],
-  "scripts": [
-    "https://code.jquery.com/jquery-2.2.1.min.js",
-    "./js/bg.js"
+    "./styles.less"
   ],
   "variables": {
     "first": "Your",
@@ -35,7 +31,7 @@
           "name": "Richard J. Berry",
           "last": "Berry",
           "twitter": "Mayor_Berry",
-          "image": "berry.jpg"
+          "image": "/images/berry.jpg"
         }
       }
     },
@@ -50,7 +46,7 @@
           "name": "Tom Tait",
           "last": "Tait",
           "twitter": "city_of_anaheim",
-          "image": "tait.jpg"
+          "image": "/images/tait.jpg"
         }
       }
     },
@@ -58,14 +54,14 @@
       "variables": {
         "variant_city": "Asheville",
         "variant_state": "NC",
-        "grade": "D-",
+        "grade": "D",
         "tone": "hostile",
         "target": {
           "title": "Mayor",
           "name": "Esther Manheimer",
           "last": "Manheimer",
           "twitter": "esthermanheimer",
-          "image": "manheimer.jpg"
+          "image": "/images/manheimer.jpg"
         }
       }
     },
@@ -80,7 +76,7 @@
           "name": "Kasim Reed",
           "last": "Reed",
           "twitter": "KasimReed",
-          "image": "reed.jpg"
+          "image": "/images/reed.jpg"
         }
       }
     },
@@ -88,14 +84,14 @@
       "variables": {
         "variant_city": "Austin",
         "variant_state": "TX",
-        "grade": "B",
-        "tone": "help",
+        "grade": "D",
+        "tone": "hostile",
         "target": {
           "title": "Mayor",
           "name": "Steve Adler",
           "last": "Adler",
           "twitter": "MayorAdler",
-          "image": "adler.jpg"
+          "image": "/images/adler.jpg"
         }
       }
     },
@@ -110,7 +106,7 @@
           "name": "Stephanie Rawlings-Blake",
           "last": "Rawlings-Blake",
           "twitter": "MayorSRB",
-          "image": "rawlings-blake.jpg"
+          "image": "/images/rawlings-blake.jpg"
         }
       }
     },
@@ -125,7 +121,7 @@
           "name": "Marty Walsh",
           "last": "Walsh",
           "twitter": "marty_walsh",
-          "image": "walsh.jpg"
+          "image": "/images/walsh.jpg"
         }
       }
     },
@@ -140,7 +136,7 @@
           "name": "Suzanne Jones",
           "last": "Jones",
           "twitter": "joneszan",
-          "image": "jones.jpg"
+          "image": "/images/jones.jpg"
         }
       }
     },
@@ -155,7 +151,7 @@
           "name": "John Tecklenburg",
           "last": "Tecklenburg",
           "twitter": "johntecklenburg",
-          "image": "tecklenburg.jpg"
+          "image": "/images/tecklenburg.jpg"
         }
       }
     },
@@ -170,7 +166,7 @@
           "name": "Dan Clodfelter",
           "last": "Clodfelter",
           "twitter": "CLTMayor",
-          "image": "clodfelter.jpg"
+          "image": "/images/clodfelter.jpg"
         }
       }
     },
@@ -185,7 +181,7 @@
           "name": "Rahm Emanuel",
           "last": "Emanuel",
           "twitter": "RahmEmanuel",
-          "image": "emanuel.jpg"
+          "image": "/images/emanuel.jpg"
         }
       }
     },
@@ -200,7 +196,7 @@
           "name": "Frank G. Jackson",
           "last": "Jackson",
           "twitter": "CityofCleveland",
-          "image": "jackson.jpg"
+          "image": "/images/jackson.jpg"
         }
       }
     },
@@ -215,7 +211,7 @@
           "name": "John Suthers",
           "last": "Suthers",
           "twitter": "COSpringsMayor",
-          "image": "suthers.jpg"
+          "image": "/images/suthers.jpg"
         }
       }
     },
@@ -230,7 +226,7 @@
           "name": "Michael B. Coleman",
           "last": "Coleman",
           "twitter": "MichaelBColeman",
-          "image": "coleman.jpg"
+          "image": "/images/coleman.jpg"
         }
       }
     },
@@ -245,7 +241,7 @@
           "name": "Mike Rawlings",
           "last": "Rawlings",
           "twitter": "Mike_Rawlings",
-          "image": "rawlings.jpg"
+          "image": "/images/rawlings.jpg"
         }
       }
     },
@@ -260,7 +256,7 @@
           "name": "Michael Hancock",
           "last": "Hancock",
           "twitter": "MayorHancock",
-          "image": "hancock.jpg"
+          "image": "/images/hancock.jpg"
         }
       }
     },
@@ -275,7 +271,7 @@
           "name": "Mike Duggan",
           "last": "Duggan",
           "twitter": "MayorMikeDuggan",
-          "image": "duggan.jpg"
+          "image": "/images/duggan.jpg"
         }
       }
     },
@@ -290,7 +286,7 @@
           "name": "Oscar Leeser",
           "last": "Leeser",
           "twitter": "OscarLeeser",
-          "image": "leeser.jpg"
+          "image": "/images/leeser.jpg"
         }
       }
     },
@@ -305,7 +301,7 @@
           "name": "Jack Seiler",
           "last": "Seiler",
           "twitter": "jackseiler",
-          "image": "seiler.jpg"
+          "image": "/images/seiler.jpg"
         }
       }
     },
@@ -320,7 +316,7 @@
           "name": "Betsy Price",
           "last": "Price",
           "twitter": "MayorBetsyPrice",
-          "image": "price.jpg"
+          "image": "/images/price.jpg"
         }
       }
     },
@@ -335,7 +331,7 @@
           "name": "Ashley Swearengin",
           "last": "Swearengin",
           "twitter": "MayorSwearengin",
-          "image": "swearengin.jpg"
+          "image": "/images/swearengin.jpg"
         }
       }
     },
@@ -350,7 +346,7 @@
           "name": "Jim Yarbrough",
           "last": "Yarbrough",
           "twitter": "cityofgalveston",
-          "image": "yarbrough.jpg"
+          "image": "/images/yarbrough.jpg"
         }
       }
     },
@@ -365,7 +361,7 @@
           "name": "Annise Parker",
           "last": "Parker",
           "twitter": "AnniseParker",
-          "image": "parker.jpg"
+          "image": "/images/parker.jpg"
         }
       }
     },
@@ -380,7 +376,7 @@
           "name": "Greg Ballard",
           "last": "Ballard",
           "twitter": "MayorBallard",
-          "image": "ballard.jpg"
+          "image": "/images/ballard.jpg"
         }
       }
     },
@@ -395,7 +391,7 @@
           "name": "Sara Flitner",
           "last": "Flitner",
           "twitter": "saraflitner",
-          "image": "flitner.jpg"
+          "image": "/images/flitner.jpg"
         }
       }
     },
@@ -410,7 +406,7 @@
           "name": "Lenny Curry",
           "last": "Curry",
           "twitter": "lennycurry",
-          "image": "curry.jpg"
+          "image": "/images/curry.jpg"
         }
       }
     },
@@ -425,7 +421,7 @@
           "name": "Sly James",
           "last": "James",
           "twitter": "MayorSlyJames",
-          "image": "james.jpg"
+          "image": "/images/james.jpg"
         }
       }
     },
@@ -440,7 +436,7 @@
           "name": "Carolyn Goodman",
           "last": "Goodman",
           "twitter": "mayoroflasvegas",
-          "image": "goodman.jpg"
+          "image": "/images/goodman.jpg"
         }
       }
     },
@@ -455,7 +451,7 @@
           "name": "Robert Garcia",
           "last": "Garcia",
           "twitter": "RobertGarciaLB",
-          "image": "garcia.jpg"
+          "image": "/images/garcia.jpg"
         }
       }
     },
@@ -470,7 +466,7 @@
           "name": "Eric Garcetti",
           "last": "Garcetti",
           "twitter": "LAMayorsOffice",
-          "image": "garcetti.jpg"
+          "image": "/images/garcetti.jpg"
         }
       }
     },
@@ -485,7 +481,7 @@
           "name": "Greg Fischer",
           "last": "Fischer",
           "twitter": "louisvillemayor",
-          "image": "fischer.jpg"
+          "image": "/images/fischer.jpg"
         }
       }
     },
@@ -500,7 +496,7 @@
           "name": "Alan Arakawa",
           "last": "Arakawa",
           "twitter": "alanarakawa",
-          "image": "arakawa.jpg"
+          "image": "/images/arakawa.jpg"
         }
       }
     },
@@ -515,7 +511,7 @@
           "name": "Jim Strickland",
           "last": "Strickland",
           "twitter": "mayormemphis",
-          "image": "strickland.jpg"
+          "image": "/images/strickland.jpg"
         }
       }
     },
@@ -530,7 +526,7 @@
           "name": "John Giles",
           "last": "Giles",
           "twitter": "MayorGiles",
-          "image": "giles.jpg"
+          "image": "/images/giles.jpg"
         }
       }
     },
@@ -545,7 +541,7 @@
           "name": "Tom�s Pedro Regalado",
           "last": "Regalado",
           "twitter": "Tomas_Regalado",
-          "image": "regalado.jpg"
+          "image": "/images/regalado.jpg"
         }
       }
     },
@@ -560,7 +556,7 @@
           "name": "Tom Barrett",
           "last": "Barrett",
           "twitter": "MayorOfMKE",
-          "image": "barrett.jpg"
+          "image": "/images/barrett.jpg"
         }
       }
     },
@@ -575,7 +571,7 @@
           "name": "Betsy Hodges",
           "last": "Hodges",
           "twitter": "MayorHodges",
-          "image": "hodges.jpg"
+          "image": "/images/hodges.jpg"
         }
       }
     },
@@ -590,7 +586,7 @@
           "name": "Megan Barry",
           "last": "Barry",
           "twitter": "MeganBarry2015",
-          "image": "barry.jpg"
+          "image": "/images/barry.jpg"
         }
       }
     },
@@ -605,7 +601,7 @@
           "name": "Mitch Landrieu",
           "last": "Landrieu",
           "twitter": "MayorLandrieu",
-          "image": "landrieu.jpg"
+          "image": "/images/landrieu.jpg"
         }
       }
     },
@@ -620,7 +616,7 @@
           "name": "Bill de Blasio",
           "last": "de Blasio",
           "twitter": "BilldeBlasio",
-          "image": "de-blasio.jpg"
+          "image": "/images/de-blasio.jpg"
         }
       }
     },
@@ -635,7 +631,7 @@
           "name": "Libby Schaaf",
           "last": "Schaaf",
           "twitter": "LibbySchaaf",
-          "image": "schaaf.jpg"
+          "image": "/images/schaaf.jpg"
         }
       }
     },
@@ -650,7 +646,7 @@
           "name": "Mick Cornett",
           "last": "Cornett",
           "twitter": "MickCornett",
-          "image": "cornett.jpg"
+          "image": "/images/cornett.jpg"
         }
       }
     },
@@ -665,7 +661,7 @@
           "name": "Jean Stothert",
           "last": "Stothert",
           "twitter": "Jean_Stothert",
-          "image": "stothert.jpg"
+          "image": "/images/stothert.jpg"
         }
       }
     },
@@ -680,7 +676,7 @@
           "name": "Buddy Dyer",
           "last": "Dyer",
           "twitter": "orlandomayor",
-          "image": "dyer.jpg"
+          "image": "/images/dyer.jpg"
         }
       }
     },
@@ -695,7 +691,7 @@
           "name": "Michael Nutter",
           "last": "Nutter",
           "twitter": "Michael_Nutter",
-          "image": "nutter.jpg"
+          "image": "/images/nutter.jpg"
         }
       }
     },
@@ -710,7 +706,7 @@
           "name": "Greg Stanton",
           "last": "Stanton",
           "twitter": "MayorStanton",
-          "image": "stanton.jpg"
+          "image": "/images/stanton.jpg"
         }
       }
     },
@@ -725,7 +721,7 @@
           "name": "Charlie Hales",
           "last": "Hales",
           "twitter": "MayorPDX",
-          "image": "hales.jpg"
+          "image": "/images/hales.jpg"
         }
       }
     },
@@ -740,7 +736,7 @@
           "name": "Nancy McFarlane",
           "last": "McFarlane",
           "twitter": "NancyMcFarlane",
-          "image": "mcfarlane.jpg"
+          "image": "/images/mcfarlane.jpg"
         }
       }
     },
@@ -748,14 +744,14 @@
       "variables": {
         "variant_city": "Sacramento",
         "variant_state": "CA",
-        "grade": "D-",
+        "grade": "D+",
         "tone": "hostile",
         "target": {
           "title": "Mayor",
           "name": "Kevin Johnson",
           "last": "Johnson",
           "twitter": "KJ_MayorJohnson",
-          "image": "johnson.jpg"
+          "image": "/images/johnson.jpg"
         }
       }
     },
@@ -770,7 +766,7 @@
           "name": "Ivy R. Taylor",
           "last": "Taylor",
           "twitter": "IvyRTaylor",
-          "image": "taylor.jpg"
+          "image": "/images/taylor.jpg"
         }
       }
     },
@@ -785,7 +781,7 @@
           "name": "Kevin Faulconer",
           "last": "Faulconer",
           "twitter": "kevin_faulconer",
-          "image": "faulconer.jpg"
+          "image": "/images/faulconer.jpg"
         }
       }
     },
@@ -800,7 +796,7 @@
           "name": "Edwin M. Lee",
           "last": "Lee",
           "twitter": "mayoredlee",
-          "image": "lee.jpg"
+          "image": "/images/lee.jpg"
         }
       }
     },
@@ -815,7 +811,7 @@
           "name": "Sam Liccardo",
           "last": "Liccardo",
           "twitter": "sliccardo",
-          "image": "liccardo.jpg"
+          "image": "/images/liccardo.jpg"
         }
       }
     },
@@ -830,7 +826,7 @@
           "name": "Helene Schneider",
           "last": "Schneider",
           "twitter": "MayorHelene",
-          "image": "schneider.jpg"
+          "image": "/images/schneider.jpg"
         }
       }
     },
@@ -845,7 +841,7 @@
           "name": "Eddie DeLoach",
           "last": "DeLoach",
           "twitter": "deloach4change",
-          "image": "deloach.jpg"
+          "image": "/images/deloach.jpg"
         }
       }
     },
@@ -860,7 +856,7 @@
           "name": "Ed Murray",
           "last": "Murray",
           "twitter": "Mayor_Ed_Murray",
-          "image": "murray.jpg"
+          "image": "/images/murray.jpg"
         }
       }
     },
@@ -875,7 +871,7 @@
           "name": "Jonathan Rothschild",
           "last": "Rothschild",
           "twitter": "JRothschildAZ",
-          "image": "rothschild.jpg"
+          "image": "/images/rothschild.jpg"
         }
       }
     },
@@ -890,7 +886,7 @@
           "name": "Will Sessoms",
           "last": "Sessoms",
           "twitter": "VABeachMayor",
-          "image": "sessoms.jpg"
+          "image": "/images/sessoms.jpg"
         }
       }
     },
@@ -905,7 +901,7 @@
           "name": "Muriel Bowser",
           "last": "Bowser",
           "twitter": "MurielBowser",
-          "image": "bowser.jpg"
+          "image": "/images/bowser.jpg"
         }
       }
     }
